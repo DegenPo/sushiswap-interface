@@ -27,9 +27,9 @@ const Mobile: FC = () => {
           <div className="p-2 rounded-full hover:bg-white/10">
             <MenuIcon width={28} className="text-white cursor-pointer hover:text-white" onClick={() => setOpen(true)} />
           </div>
-          <div className="flex items-center w-6">
+          <div className="flex items-center w-11">
             <Link href="/swap" passHref={true}>
-              <Image src="https://app.sushi.com/images/logo.svg" alt="Sushi logo" width="24px" height="24px" />
+              <Image src="https://raw.githubusercontent.com/DegenPo/sushiswap-interface/master/public/images/ichiban/IchibanTokenLogo.svg" alt="Sushi logo" width="52px" height="52px" />
             </Link>
           </div>
           <div className="flex items-center">{<Web3Network />}</div>
