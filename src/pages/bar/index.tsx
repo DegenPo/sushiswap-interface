@@ -247,7 +247,7 @@ export default function Stake() {
         <div className="flex flex-col justify-center md:flex-row">
           <div className="flex flex-col w-full max-w-xl mx-auto mb-4 md:m-0">
             <div className="mb-4">
-              <div className="flex items-center justify-between w-full h-24 max-w-xl p-4 rounded md:pl-5 md:pr-7 bg-yellow bg-opacity-40">
+              <div className="flex items-center justify-between w-full h-24 max-w-xl p-4 rounded md:pl-5 md:pr-7 bg-blue bg-opacity-40">
                 <div className="flex flex-col">
                   <div className="flex items-center mb-4 flex-nowrap md:mb-2">
                     <p className="text-sm font-bold whitespace-nowrap md:text-lg md:leading-5 text-high-emphesis">
@@ -261,7 +261,7 @@ export default function Stake() {
                         className={`
                         py-1 px-4 md:py-1.5 md:px-7 rounded
                         text-xs md:text-sm font-medium md:font-bold text-dark-900
-                        bg-yellow hover:bg-opacity-90`}
+                        bg-blue hover:bg-opacity-90`}
                       >
                         {i18n._(t`View Stats`)}
                       </a>
@@ -271,7 +271,7 @@ export default function Stake() {
                         className={`
                         ml-2 py-1 px-4 md:py-1.5 md:px-7 rounded
                         text-xs md:text-sm font-medium md:font-bold text-dark-900
-                        bg-yellow hover:bg-opacity-90`}
+                        bg-blue hover:bg-opacity-90`}
                       >
                         {i18n._(t`User Stats`)}
                       </a>
@@ -317,7 +317,7 @@ export default function Stake() {
                   <p className="font-bold text-large md:text-2xl text-high-emphesis">
                     {activeTab === 0 ? i18n._(t`Stake SUSHI`) : i18n._(t`Unstake`)}
                   </p>
-                  <div className="border-gradient-r-pink-red-light-brown-dark-pink-red border-transparent border-solid border rounded-3xl px-4 md:px-3.5 py-1.5 md:py-0.5 text-high-emphesis text-xs font-medium md:text-base md:font-normal">
+                  <div className="border-gradient-r-oracle-green-light-black-dark-black-black border-transparent border-solid border rounded-3xl px-4 md:px-3.5 py-1.5 md:py-0.5 text-high-emphesis text-xs font-medium md:text-base md:font-normal">
                     {`1 xSUSHI = ${Number(bar?.ratio ?? 0)?.toFixed(4)} SUSHI`}
                   </div>
                 </div>

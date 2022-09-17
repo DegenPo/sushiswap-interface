@@ -83,7 +83,7 @@ function _Pool() {
   return (
     <>
       <NextSeo title={`${currency0.symbol}-${currency1.symbol} Analytics`} />
-      <TridentHeader className="sm:!flex-row justify-between items-center" pattern="bg-bubble">
+      <TridentHeader className="sm:!flex-row justify-between items-center">
         <div className="space-y-4">
           <div className="flex items-center space-x-4">
             <DoubleCurrencyLogo

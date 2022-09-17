@@ -63,7 +63,7 @@ export const MisoHeader: FC<MisoHeaderProps> = ({
         </>
       )
     }
-    return <Background variant="miso-bowl" />
+    return <Background />
   }, [
     auction?.auctionDocuments?.desktopBanner,
     auction?.auctionDocuments?.mobileBanner,

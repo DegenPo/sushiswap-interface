@@ -26,7 +26,7 @@ const BentoBoxFundingSourceModal: FC = () => {
         <div className="flex flex-col gap-4">
           <HeadlessUiModal.Header header={i18n._(t`Bentobox`)} onClose={() => setOpen(false)} />
           <div className="flex justify-center gap-4">
-            <div className="relative shadow-pink-glow">
+            <div className="relative">
               <Image
                 src="https://app.sushi.com/images/bentobox/logo.png"
                 width={160}

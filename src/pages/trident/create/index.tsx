@@ -19,7 +19,7 @@ const CreateNewPool = () => {
 
   return (
     <>
-      <TridentHeader pattern="bg-chevron">
+      <TridentHeader>
         <div className="flex flex-col gap-3 lg:w-8/12 lg:gap-5 lg:pr-6 h-[68px] lg:h-auto">
           <div>
             <Button

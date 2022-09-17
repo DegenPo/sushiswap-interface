@@ -21,7 +21,7 @@ const Portfolio = () => {
   return (
     <>
       <NextSeo title={`${i18n._(t`Account`)} ${account}`} />
-      <TridentHeader pattern="bg-chevron">
+      <TridentHeader>
         <HeaderDropdown account={account} chainId={chainId} />
       </TridentHeader>
       <TridentBody className="flex flex-col grid-cols-2 gap-10 lg:grid lg:gap-4">

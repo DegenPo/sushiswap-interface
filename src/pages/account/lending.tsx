@@ -21,7 +21,7 @@ const Lending = () => {
   return (
     <>
       <NextSeo title={`Kashi lending positions for account ${account}`} />
-      <TridentHeader pattern="bg-chevron">
+      <TridentHeader>
         <HeaderDropdown account={account} chainId={chainId} />
       </TridentHeader>
       <TridentBody>

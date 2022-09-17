@@ -91,7 +91,7 @@ export default function Pool() {
   return (
     <>
       <NextSeo title={`${token0?.symbol}/${token1?.symbol} Analytics`} />
-      <TridentHeader className="sm:!flex-row justify-between items-center" pattern="bg-bubble">
+      <TridentHeader className="sm:!flex-row justify-between items-center">
         <div className="space-y-4">
           <div className="flex items-center space-x-4">
             <DoubleCurrencyLogo className="rounded-full" currency0={token0} currency1={token1} size={60} />

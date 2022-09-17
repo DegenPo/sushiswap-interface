@@ -32,7 +32,7 @@ const RemoveClassic = () => {
 
   return (
     <>
-      <TridentHeader pattern="bg-chevron">
+      <TridentHeader>
         <div className="relative flex flex-col w-full gap-5 mt-px lg:justify-between lg:w-7/12">
           <div className="flex justify-between">
             <Button

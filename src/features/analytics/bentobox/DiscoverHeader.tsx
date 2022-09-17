@@ -8,7 +8,7 @@ import Typography from '../../../components/Typography'
 export const DiscoverHeader: FC = () => {
   const { i18n } = useLingui()
   return (
-    <TridentHeader className="sm:!flex-row justify-between items-center" pattern="bg-bubble">
+    <TridentHeader className="sm:!flex-row justify-between items-center">
       <div>
         <Typography variant="h2" className="text-high-emphesis" weight={700}>
           {i18n._(t`BentoBox Analytics.`)}

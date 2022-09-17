@@ -90,7 +90,7 @@ function Web3StatusInner() {
     return (
       <Web3Connect
         size="sm"
-        className="!bg-dark-900 bg-gradient-to-r from-pink/80 hover:from-pink to-purple/80 hover:to-purple text-white h-[38px]"
+        className="!bg-blue-700 bg-gradient-to-r from-blue/80 hover:from-blue to-blue/80 hover:to-blue text-white h-[38px]"
       />
     )
   }

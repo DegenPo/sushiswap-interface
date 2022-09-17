@@ -38,7 +38,7 @@ const Pool = () => {
           Number(poolWithState?.pool?.fee) / 10000
         } Twap ${poolWithState?.pool?.twap ? 'Enabled' : 'Disabled'}`}
       />
-      <TridentHeader pattern="bg-chevron" condensed className="lg:py-[22px]">
+      <TridentHeader condensed className="lg:py-[22px]">
         <div className="flex flex-col gap-3 lg:w-8/12 lg:gap-5 lg:pr-6 h-[68px] lg:h-auto">
           <div>
             <Button

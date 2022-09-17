@@ -70,7 +70,7 @@ export default function User() {
     <>
       <NextSeo title={`User Analytics`} />
 
-      <TridentHeader className="sm:!flex-row justify-between items-center" pattern="bg-bubble">
+      <TridentHeader className="sm:!flex-row justify-between items-center">
         <div>
           <Typography variant="h2" className="text-high-emphesis" weight={700}>
             {i18n._(t`User Analytics.`)}

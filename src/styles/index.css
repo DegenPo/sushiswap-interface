@@ -32,7 +32,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--primary);
+  background-image: linear-gradient(to bottom, #000000,#000000, #080f0f);
   color: var(--text-primary);
 }
 

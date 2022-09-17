@@ -149,7 +149,7 @@ export default function Meowshi() {
           </Typography>
         </div>
       </div>
-      <div className="relative grid gap-4 p-4 border-2 rounded z-1 bg-dark-900 shadow-swap border-dark-800">
+      <div className="relative grid gap-4 p-4 border-2 rounded z-1 bg-dark-900 border-dark-800">
         <HeaderToggle meowshiState={meowshiState} />
         <CurrencyInputPanel field={Field.INPUT} showMax={true} meowshiState={meowshiState} />
         <div className="relative mt-[-24px] mb-[-24px] ml-[28px] flex items-center">

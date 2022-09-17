@@ -30,8 +30,8 @@ const FILLED = {
   pink: 'bg-pink',
   purple: 'bg-purple',
   gradient:
-    '!bg-gradient-to-r from-blue to-pink-600 hover:from-blue/80 hover:to-pink-600/80 focus:from-blue/80 focus:to-pink-600/80 active:from-blue/70 active:to-pink-600/70 focus:border-blue-700',
-  gray: 'bg-dark-700',
+    '!bg-gradient-to-r from-blue to-blue-400 hover:from-blue/80 hover:to-blue-400/80 focus:from-blue/80 focus:to-blue-400/80 active:from-blue/70 active:to-blue-400/70 focus:border-blue-800',
+  gray: 'bg-dark-800',
 }
 
 const OUTLINED = {
@@ -41,7 +41,7 @@ const OUTLINED = {
   pink: 'border-none bg-pink/20 hover:bg-pink/40 active:bg-pink/60 text-pink focus:bg-pink/40',
   purple: 'border-none bg-purple/20 hover:bg-purple/40 active:bg-purple/60 text-purple focus:bg-purple/40',
   gradient: 'border-none bg-purple/20 hover:bg-purple/40 active:bg-purple/60 text-purple focus:bg-purple/40',
-  gray: 'border-dark-700 hover:bg-dark-700/30 active:bg-dark-700/50 focus:bg-dark-700/30',
+  gray: 'border-dark-800 hover:bg-dark-800/30 active:bg-dark-800/50 focus:bg-dark-800/30',
 }
 
 const EMPTY = {
@@ -53,7 +53,7 @@ const EMPTY = {
   purple: 'text-purple',
   gray: 'text-higher-emphesis',
   gradient:
-    '!bg-gradient-to-r from-blue to-pink-600 hover:from-blue/80 hover:to-pink-600/80 focus:from-blue/80 focus:to-pink-600/80 active:from-blue/70 active:to-pink-600/70',
+    '!bg-gradient-to-r from-blue to-silver-800 hover:from-blue/80 hover:to-silver-800/80 focus:from-blue/80 focus:to-silver-800/80 active:from-blue/70 active:to-silver-800/70',
 }
 
 const VARIANT = {
